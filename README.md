@@ -10,3 +10,11 @@ to test your evil-package.
     M-x package-install evil-tests
 
 Or you can just put `evil-tests.el` somewhere on your load path.
+
+## Using in a packge
+
+Follow the [ELPA package format](http://marmalade-repo.org/doc-files/package.5.html)
+and add this to the package header:
+```cl
+;; Package-Requires: ((evil-tests "0.1"))
+```
