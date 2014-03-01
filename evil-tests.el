@@ -1,7 +1,6 @@
 ;; evil-tests.el --- Abstractions used to test Evil -*- coding: utf-8 -*-
 
 ;; Author: Vegard Øye <vegard_oye at hotmail.com>
-;; Maintainer: Lars Andersen <expez@expez.com>
 
 ;; Version: 0.1
 
@@ -10,7 +9,7 @@
 
 ;;; License:
 
-;; This file was part of Evil.
+;; This file is extracted from Evil
 ;;
 ;; Evil is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
