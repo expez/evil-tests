@@ -1,4 +1,4 @@
-;; evil-tests.el --- Abstractions used to test Evil -*- coding: utf-8 -*-
+;;; evil-tests.el --- Abstractions used to test Evil -*- coding: utf-8 -*-
 
 ;; Author: Vegard Øye <vegard_oye at hotmail.com>
 
@@ -378,3 +378,7 @@ the end of the execution of BODY."
           content))
      ,@body
      (delete-file ,file-var)))
+
+(provide 'evil-tests)
+
+;;; evil-tests.el ends here
