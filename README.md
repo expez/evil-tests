@@ -3,18 +3,18 @@ I've extracted the test related code from Evil proper, to make it available to p
 very good and there's frankly no need to re-invent the wheel in order
 to test your evil-package.
 
-## Installation
+<!-- ## Installation -->
 
-[Melpa](http://melpa.milkbox.net/):
+<!-- [Melpa](http://melpa.milkbox.net/): -->
 
-    M-x package-install evil-tests
+<!--     M-x package-install evil-tests -->
 
-Or you can just put `evil-tests.el` somewhere on your load path.
+<!-- Or you can just put `evil-tests.el` somewhere on your load path. -->
 
-## Using in a packge
+<!-- ## Using in a packge -->
 
-Follow the [ELPA package format](http://marmalade-repo.org/doc-files/package.5.html)
-and add this to the package header:
-```cl
-;; Package-Requires: ((evil-tests "0.1"))
-```
+<!-- Follow the [ELPA package format](http://marmalade-repo.org/doc-files/package.5.html) -->
+<!-- and add this to the package header: -->
+<!-- ```cl -->
+<!-- ;; Package-Requires: ((evil-tests "0.1")) -->
+<!-- ``` -->
